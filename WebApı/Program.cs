@@ -1,7 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using NLog;
+using Presentation.ActionFilters;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 using WebApý.Extansions;
 using WebApý.Extensions;
@@ -14,11 +16,12 @@ builder.Services.AddControllers(config =>
 {
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true;
-})
+}).AddXmlDataContractSerializerFormatters()
     .AddCustomCvsFormatter()
-    .AddXmlDataContractSerializerFormatters()
-.AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
-.AddNewtonsoftJson();
+
+.AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly);
+//.AddNewtonsoftJson();
+
 
 builder.Services.Configure<ApiBehaviorOptions>(options => options.SuppressModelStateInvalidFilter = true);
 builder.Services.AddEndpointsApiExplorer();
@@ -28,6 +31,13 @@ builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureLoggerService();
 builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.ConfigureActionFilters();
+builder.Services.ConfigureCors();
+builder.Services.ConfigureDataShaper();
+builder.Services.AddCustomMediaTypes();
+builder.Services.AddScoped<IBookLinks, BookLinks>();
+
+
 var app = builder.Build();
 
 var logger=app.Services.GetRequiredService<ILoggerService>();
@@ -45,6 +55,8 @@ if (app.Environment.IsProduction())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 

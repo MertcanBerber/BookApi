@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proje\\WebApı\\Entities\\Entities.csproj": {}
+    "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Proje\\WebApı\\Entities\\Entities.csproj": {
+    "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proje\\WebApı\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Proje\\WebApı\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\mert berber\\.nuget\\packages\\",
-        "outputPath": "C:\\Proje\\WebApı\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -39,11 +39,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

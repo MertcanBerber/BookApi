@@ -108,3 +108,51 @@
 2024-04-04 00:28:31.3308 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
 2024-04-04 00:28:31.3308 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Proje\WebApı\WebApı\nlog.config
 2024-04-04 00:28:31.3308 Info Configuration initialized.
+2024-04-05 01:04:02.8079 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-05 01:04:02.8332 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-05 01:04:02.8453 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-05 01:04:02.8562 Info Configuration initialized.
+2024-04-05 01:10:09.7979 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-05 01:10:09.8265 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-05 01:10:09.8492 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-05 01:10:09.8665 Info Configuration initialized.
+2024-04-05 01:50:25.0066 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-05 01:50:25.0352 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-05 01:50:25.0480 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-05 01:50:25.0596 Info Configuration initialized.
+2024-04-06 01:34:30.5502 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-06 01:34:30.5760 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-06 01:34:30.5760 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-06 01:34:30.6021 Info Configuration initialized.
+2024-04-06 01:37:32.5550 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-06 01:37:32.5790 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-06 01:37:32.6002 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-06 01:37:32.6183 Info Configuration initialized.
+2024-04-06 18:03:40.7605 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-06 18:03:40.7888 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-06 18:03:40.8012 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-06 18:03:40.8115 Info Configuration initialized.
+2024-04-08 16:13:21.9674 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-08 16:13:21.9934 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-08 16:13:22.0054 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-08 16:13:22.0158 Info Configuration initialized.
+2024-04-08 16:27:46.3518 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-08 16:27:46.3813 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-08 16:27:46.3987 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-08 16:27:46.3987 Info Configuration initialized.
+2024-04-16 16:00:00.4688 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-16 16:00:00.4904 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-04-16 16:00:00.5020 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-04-16 16:00:00.5118 Info Configuration initialized.
+2024-05-13 21:39:18.8872 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-05-13 21:39:18.9109 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-05-13 21:39:18.9109 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-05-13 21:39:18.9335 Info Configuration initialized.
+2024-05-13 22:05:26.6516 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-05-13 22:05:26.6838 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-05-13 22:05:26.6995 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-05-13 22:05:26.7110 Info Configuration initialized.
+2024-05-15 22:38:13.1262 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-05-15 22:38:13.1514 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-05-15 22:38:13.1672 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-05-15 22:38:13.1672 Info Configuration initialized.

@@ -1386,6 +1386,19 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
+      "System.Linq.Dynamic.Core/1.3.10": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Linq.Dynamic.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Linq.Dynamic.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "System.Linq.Expressions/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -1883,6 +1896,9 @@
       "Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0"
+        },
         "compile": {
           "bin/placeholder/Entities.dll": {}
         },
@@ -1911,7 +1927,8 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "6.0.10"
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "System.Linq.Dynamic.Core": "1.3.10"
         },
         "compile": {
           "bin/placeholder/Repositories.dll": {}
@@ -3997,6 +4014,65 @@
         "system.linq.nuspec"
       ]
     },
+    "System.Linq.Dynamic.Core/1.3.10": {
+      "sha512": "xkMCropqN0WTgPuPbIlYgXss1KAyjd+8VRbx/BFh57yUOi5LylljIpK0iGa58ziXr+xJqzmcaRGtKHlsI5C4tg==",
+      "type": "package",
+      "path": "system.linq.dynamic.core/1.3.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PackageReadme.md",
+        "lib/net35/System.Linq.Dynamic.Core.dll",
+        "lib/net35/System.Linq.Dynamic.Core.pdb",
+        "lib/net35/System.Linq.Dynamic.Core.xml",
+        "lib/net40/System.Linq.Dynamic.Core.dll",
+        "lib/net40/System.Linq.Dynamic.Core.pdb",
+        "lib/net40/System.Linq.Dynamic.Core.xml",
+        "lib/net45/System.Linq.Dynamic.Core.dll",
+        "lib/net45/System.Linq.Dynamic.Core.pdb",
+        "lib/net45/System.Linq.Dynamic.Core.xml",
+        "lib/net452/System.Linq.Dynamic.Core.dll",
+        "lib/net452/System.Linq.Dynamic.Core.pdb",
+        "lib/net452/System.Linq.Dynamic.Core.xml",
+        "lib/net46/System.Linq.Dynamic.Core.dll",
+        "lib/net46/System.Linq.Dynamic.Core.pdb",
+        "lib/net46/System.Linq.Dynamic.Core.xml",
+        "lib/net5.0/System.Linq.Dynamic.Core.dll",
+        "lib/net5.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net5.0/System.Linq.Dynamic.Core.xml",
+        "lib/net6.0/System.Linq.Dynamic.Core.dll",
+        "lib/net6.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net6.0/System.Linq.Dynamic.Core.xml",
+        "lib/net7.0/System.Linq.Dynamic.Core.dll",
+        "lib/net7.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net7.0/System.Linq.Dynamic.Core.xml",
+        "lib/net8.0/System.Linq.Dynamic.Core.dll",
+        "lib/net8.0/System.Linq.Dynamic.Core.pdb",
+        "lib/net8.0/System.Linq.Dynamic.Core.xml",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.pdb",
+        "lib/netcoreapp2.1/System.Linq.Dynamic.Core.xml",
+        "lib/netcoreapp3.1/System.Linq.Dynamic.Core.dll",
+        "lib/netcoreapp3.1/System.Linq.Dynamic.Core.pdb",
+        "lib/netcoreapp3.1/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard1.3/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard2.0/System.Linq.Dynamic.Core.xml",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.dll",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.pdb",
+        "lib/netstandard2.1/System.Linq.Dynamic.Core.xml",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.dll",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.pdb",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.pri",
+        "lib/uap10.0.10240/System.Linq.Dynamic.Core.xml",
+        "logo.png",
+        "system.linq.dynamic.core.1.3.10.nupkg.sha512",
+        "system.linq.dynamic.core.nuspec"
+      ]
+    },
     "System.Linq.Expressions/4.1.0": {
       "sha512": "I+y02iqkgmCAyfbqOmSDOgqdZQ5tTj80Akm5BPSS8EeB0VGWdy6X1KCoYe8Pk6pwDoAKZUOdLVxnTJcExiv5zw==",
       "type": "package",
@@ -5554,11 +5630,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proje\\WebApı\\WebApı\\WebApı.csproj",
+      "projectUniqueName": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebApı\\WebApı.csproj",
       "projectName": "WebApı",
-      "projectPath": "C:\\Proje\\WebApı\\WebApı\\WebApı.csproj",
+      "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebApı\\WebApı.csproj",
       "packagesPath": "C:\\Users\\mert berber\\.nuget\\packages\\",
-      "outputPath": "C:\\Proje\\WebApı\\WebApı\\obj\\",
+      "outputPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebApı\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
@@ -5580,17 +5656,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Proje\\WebApı\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Proje\\WebApı\\Entities\\Entities.csproj"
+            "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Entities.csproj"
             },
-            "C:\\Proje\\WebApı\\Presentation\\Presentation.csproj": {
-              "projectPath": "C:\\Proje\\WebApı\\Presentation\\Presentation.csproj"
+            "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Presentation.csproj"
             },
-            "C:\\Proje\\WebApı\\Repositories\\Repositories.csproj": {
-              "projectPath": "C:\\Proje\\WebApı\\Repositories\\Repositories.csproj"
+            "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Repositories.csproj": {
+              "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Repositories.csproj"
             },
-            "C:\\Proje\\WebApı\\Services\\Services.csproj": {
-              "projectPath": "C:\\Proje\\WebApı\\Services\\Services.csproj"
+            "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Services.csproj"
             }
           }
         }
@@ -5599,6 +5675,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5653,7 +5734,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -18,3 +18,23 @@ C:\Proje\WebApı\Presentation\obj\Debug\net6.0\refint\Presentation.dll
 C:\Proje\WebApı\Presentation\obj\Debug\net6.0\Presentation.pdb
 C:\Proje\WebApı\Presentation\obj\Debug\net6.0\ref\Presentation.dll
 C:\Proje\WebApı\Presentation\obj\Debug\net6.0\Presentation.sourcelink.json
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Presentation.deps.json
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Presentation.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Presentation.pdb
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Entities.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Repositories.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Services.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Services.pdb
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Entities.pdb
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\bin\Debug\net6.0\Repositories.pdb
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.AssemblyInfo.cs
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.sourcelink.json
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\refint\Presentation.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presentation.pdb
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\ref\Presentation.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\Presentation\obj\Debug\net6.0\Presenta.BC777DBE.Up2Date

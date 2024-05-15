@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UTNHaYeY8ILlqSZ8tKBb4ZhVmbtN4MdH4lVctFNlU2l/7l4MCGqX6/QZZ2OTP3IAN9zM8YqDs5ryz21BleqZfQ==",
+  "dgSpecHash": "HinBLoYL5MOBA5ccOpvOZVdoawEfyRJ8Y16aqis2jr6tMKjuZUy6bkWU4BOFRwrmXdFJdHEb3/XbsM8/FEcfzQ==",
   "success": true,
-  "projectFilePath": "C:\\Proje\\WebApı\\WebApı\\WebApı.csproj",
+  "projectFilePath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebApı\\WebApı.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mert berber\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -86,6 +86,7 @@
     "C:\\Users\\mert berber\\.nuget\\packages\\system.io.filesystem\\4.0.1\\system.io.filesystem.4.0.1.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\system.linq\\4.1.0\\system.linq.4.1.0.nupkg.sha512",
+    "C:\\Users\\mert berber\\.nuget\\packages\\system.linq.dynamic.core\\1.3.10\\system.linq.dynamic.core.1.3.10.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\system.linq.expressions\\4.1.0\\system.linq.expressions.4.1.0.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\system.objectmodel\\4.0.12\\system.objectmodel.4.0.12.nupkg.sha512",
     "C:\\Users\\mert berber\\.nuget\\packages\\system.reflection\\4.1.0\\system.reflection.4.1.0.nupkg.sha512",
