@@ -1,6 +1,7 @@
 ﻿using Entities.DataTransferObject;
 using Entities.Models;
 using Entities.Request_Features;
+using Marvin.Cache.Headers;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.ActionFilters;
@@ -15,9 +16,13 @@ using static Entities.Exceptions.NotFoundException;
 
 namespace Presentation.Controllers
 {
+    
+    //[ApiVersion("1.0")]
     [ServiceFilter(typeof(LogFilterAttribute))]
     [ApiController]
-    [Route("api/Books")]
+    [Route("/api/books")]
+    // [ResponseCache(CacheProfileName="5mins")]
+    //[HttpCacheExpiration(CacheLocation =CacheLocation.Public,MaxAge =80)]
     public class BooksController : ControllerBase
     {
 
@@ -29,10 +34,11 @@ namespace Presentation.Controllers
         {
             _manager = manager;
         }
-
-        [HttpGet]
+        [HttpHead]
+        [HttpGet(Name ="GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
-        public async Task <IActionResult> GetAllBooks([FromQuery]BookParameters bookParameters)
+       // [ResponseCache(Duration =60)]
+        public async Task <IActionResult> GetAllBooksAsync([FromQuery]BookParameters bookParameters)
         {
             var linkParameters = new LinkParameters()
             {
@@ -52,7 +58,7 @@ namespace Presentation.Controllers
 
 
         [HttpGet("{id:int}")]
-        public async Task <IActionResult> GetOneBook([FromRoute(Name = "id")] int id)
+        public async Task <IActionResult> GetOneBookAsync([FromRoute(Name = "id")] int id)
         {
 
 
@@ -65,8 +71,8 @@ namespace Presentation.Controllers
         }
 
         [ServiceFilter(typeof(ValidationFilterAttribute))]
-        [HttpPost]
-        public async Task <IActionResult> CreatedOneBook([FromBody] BookDtoForInsertion bookDto)
+        [HttpPost(Name ="CreateOneBook")]
+        public async Task <IActionResult> CreateOneBookAsync([FromBody] BookDtoForInsertion bookDto)
         {
            
            var book= await _manager.BookService.CreateOneBookAsync(bookDto);
@@ -77,7 +83,7 @@ namespace Presentation.Controllers
 
         [ServiceFilter(typeof(ValidationFilterAttribute))]
         [HttpPut("{id:int}")]
-        public async Task <IActionResult> UpdateOneBook([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
+        public async Task <IActionResult> UpdateOneBookAsync([FromRoute(Name = "id")] int id, [FromBody] BookDtoForUpdate bookDto)
         {
 
 
@@ -87,7 +93,7 @@ namespace Presentation.Controllers
         }
 
         [HttpDelete("{id:int}")]
-        public async Task <IActionResult> DeleteAllBooks([FromRoute(Name = "id")] int id)
+        public async Task <IActionResult> DeleteAllBooksAsync([FromRoute(Name = "id")] int id)
         {
 
 
@@ -122,7 +128,12 @@ namespace Presentation.Controllers
         }
 
 
-
+        [HttpOptions]
+        public IActionResult GetBooksOptions()
+        {
+            Response.Headers.Add("Allow", "GET,PUT,POST,PATCH,DELETE,HEAD,OPTIONS");
+            return Ok(Response);
+        }
     }
 }
         

@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\webap\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|solutionrelative:webap\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\presentation\\actionfilters\\validatemediatypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|solutionrelative:presentation\\actionfilters\\validatemediatypeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|solutionrelative:webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|solutionrelative:webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\webap\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|solutionrelative:webap\u0131\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\servicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\presentation\\controllers\\booksv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CED75E-F7D9-4AE3-BFEA-FCF06BF1B840}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\booksv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +42,110 @@
       "DocumentGroups": [
         {
           "DockedHeight": 201,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Program.cs",
-              "RelativeDocumentMoniker": "WebAp\u0131\\Program.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Program.cs",
-              "RelativeToolTip": "WebAp\u0131\\Program.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBUAAABDAAAA",
+              "DocumentIndex": 6,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\BookRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\BookRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAzwCoAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:52:55.191Z",
+              "WhenOpened": "2024-06-03T18:53:25.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValidateMediaTypeAttribute.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\ActionFilters\\ValidateMediaTypeAttribute.cs",
-              "RelativeDocumentMoniker": "Presentation\\ActionFilters\\ValidateMediaTypeAttribute.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\ActionFilters\\ValidateMediaTypeAttribute.cs",
-              "RelativeToolTip": "Presentation\\ActionFilters\\ValidateMediaTypeAttribute.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCEAAAARAAAA",
+              "DocumentIndex": 7,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\IBookRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IBookRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwAoAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:40:26.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServicesExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
-              "RelativeDocumentMoniker": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
-              "RelativeToolTip": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAwCoAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:28:00.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "Presentation\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwDAAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:27:58.779Z",
+              "WhenOpened": "2024-06-03T18:52:00.04Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServiceManager.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\ServiceManager.cs",
-              "RelativeDocumentMoniker": "Services\\ServiceManager.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\ServiceManager.cs",
-              "RelativeToolTip": "Services\\ServiceManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:25:45.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IBookService.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
-              "RelativeDocumentMoniker": "Services\\Contracts\\IBookService.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
-              "RelativeToolTip": "Services\\Contracts\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABrAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:23:37.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\BookManager.cs",
               "RelativeDocumentMoniker": "Services\\BookManager.cs",
               "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\BookManager.cs",
               "RelativeToolTip": "Services\\BookManager.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAuwBoAAABHAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAQwEQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:12:37.774Z",
+              "WhenOpened": "2024-06-03T18:49:49.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IBookService.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IBookService.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAgwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:48:23.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:41:35.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksV2Controller.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksV2Controller.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\BooksV2Controller.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Presentation\\Controllers\\BooksV2Controller.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\BooksV2Controller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:40:14.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Program.cs",
+              "RelativeDocumentMoniker": "WebAp\u0131\\Program.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Program.cs",
+              "RelativeToolTip": "WebAp\u0131\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:37:54.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "RelativeDocumentMoniker": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "RelativeToolTip": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswHsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T18:34:11.38Z",
               "EditorCaption": ""
             }
           ]
