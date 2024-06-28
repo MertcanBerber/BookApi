@@ -1,5 +1,8 @@
-﻿using Entities.DataTransferObject;
+﻿using AspNetCoreRateLimit;
+using Entities.DataTransferObject;
+using Entities.Models;
 using Marvin.Cache.Headers;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.AspNetCore.Mvc.Versioning;
@@ -28,14 +31,14 @@ namespace WebApı.Extansions
             services.AddScoped<IRepositoryManager, RepositoryManager>();
 
 
-        public static void ConfigureServiceManager(this IServiceCollection services)=>
+        public static void ConfigureServiceManager(this IServiceCollection services) =>
 
-            services.AddScoped<IServiceManager,ServiceManager>();
+            services.AddScoped<IServiceManager, ServiceManager>();
 
-        public static void ConfigureLoggerService(this IServiceCollection services)=>
-            services.AddSingleton<ILoggerService,LoggerManager>();
-        
-         
+        public static void ConfigureLoggerService(this IServiceCollection services) =>
+            services.AddSingleton<ILoggerService, LoggerManager>();
+
+
         public static void ConfigureActionFilters(this IServiceCollection services)
         {
             services.AddScoped<ValidationFilterAttribute>();
@@ -47,7 +50,7 @@ namespace WebApı.Extansions
         {
             services.AddCors(options =>
             {
-                options.AddPolicy("CorsPolicy",builder=>builder.AllowAnyOrigin()
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin()
                 .AllowAnyMethod()
                 .AllowAnyHeader()
                 .WithExposedHeaders("X-Pagination")
@@ -57,7 +60,7 @@ namespace WebApı.Extansions
 
         public static void ConfigureDataShaper(this IServiceCollection services)
         {
-            services.AddScoped<IDataShaper<BookDto>,DataShaper<BookDto>>();
+            services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
 
         public static void AddCustomMediaTypes(this IServiceCollection services)
@@ -68,7 +71,7 @@ namespace WebApı.Extansions
                 .OutputFormatters
                 .OfType<SystemTextJsonOutputFormatter>()?.FirstOrDefault();
 
-                if(systemTextJsonOutputFormatter is not null)
+                if (systemTextJsonOutputFormatter is not null)
                 {
                     systemTextJsonOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.btkakademi.hateos+json");
@@ -80,7 +83,7 @@ namespace WebApı.Extansions
                 .OutputFormatters
                 .OfType<XmlDataContractSerializerOutputFormatter>()?.FirstOrDefault();
 
-                if(xmlOutputFormatter is not null)
+                if (xmlOutputFormatter is not null)
                 {
                     xmlOutputFormatter.SupportedMediaTypes
                     .Add("application/vnd.btkakademi.hateos+xml");
@@ -97,13 +100,13 @@ namespace WebApı.Extansions
             services.AddApiVersioning(opt =>
             {
                 opt.ReportApiVersions = true;
-                opt.AssumeDefaultVersionWhenUnspecified=true;
+                opt.AssumeDefaultVersionWhenUnspecified = true;
                 opt.DefaultApiVersion = new ApiVersion(1, 0);
                 opt.ApiVersionReader = new HeaderApiVersionReader("api-version");
-               
+
                 opt.Conventions.Controller<BooksController>()
                 .HasApiVersion(new ApiVersion(1, 0));
-                
+
                 opt.Conventions.Controller<BooksV2Controller>()
                 .HasDeprecatedApiVersion(new ApiVersion(2, 0));
             });
@@ -112,23 +115,56 @@ namespace WebApı.Extansions
 
         public static void ConfigureResponseCaching(this IServiceCollection services) =>
             services.AddResponseCaching();
-        
 
-        public static void ConfigureHttpCacheHeaders(this IServiceCollection services)=>
+
+        public static void ConfigureHttpCacheHeaders(this IServiceCollection services) =>
 
             services.AddHttpCacheHeaders(expirationsOpt =>
             {
                 expirationsOpt.MaxAge = 90;
-                expirationsOpt.CacheLocation=CacheLocation.Public;
+                expirationsOpt.CacheLocation = CacheLocation.Public;
             },
                 validationOpt =>
                 {
                     validationOpt.MustRevalidate = false;
                 }
                 );
-        
-           
-        
+
+
+        public static void ConfigureRateLimitingOptions(this IServiceCollection services)
+        {
+            var rateLimitRules = new List<RateLimitRule>() { new RateLimitRule()
+            {
+            Endpoint="*",
+            Limit=3,
+            Period="1m" }
+            
+            };
+
+            services.Configure<IpRateLimitOptions>(opt =>
+            {
+                opt.GeneralRules = rateLimitRules;
+            });
+            services.AddSingleton<IRateLimitCounterStore,MemoryCacheRateLimitCounterStore>();
+            services.AddSingleton<IIpPolicyStore,MemoryCacheIpPolicyStore>();
+            services.AddSingleton<IRateLimitConfiguration,RateLimitConfiguration>();
+            services.AddSingleton<IProcessingStrategy,AsyncKeyLockProcessingStrategy>();
+        }
+
+        public static void ConfigureIdentity(this IServiceCollection services)
+        {
+            var builder = services.AddIdentity<User, IdentityRole>(opts =>
+            {
+                opts.Password.RequireDigit = true;
+                opts.Password.RequireLowercase = false;
+                opts.Password.RequireUppercase = false;
+                opts.Password.RequireNonAlphanumeric = false;
+                opts.Password.RequiredLength = 6;
+                opts.User.RequireUniqueEmail = true;
+            })
+                .AddEntityFrameworkStores<RepositoryContext>()
+                .AddDefaultTokenProviders();
+        }
     }
 }
 
