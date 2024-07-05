@@ -176,3 +176,5 @@ C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\System.Li
 C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\Marvin.Cache.Headers.dll
 C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\AspNetCoreRateLimit.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

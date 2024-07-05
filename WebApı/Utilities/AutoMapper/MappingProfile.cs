@@ -12,6 +12,8 @@ namespace WebApı.Utilities.AutoMapper
             CreateMap<Book, BookDto>();
             CreateMap<BookDtoForInsertion, Book>();
 
+
+
         }
     }
 }
