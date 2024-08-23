@@ -3,16 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\authenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\authenticationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\categorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\contracts\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\contracts\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3432572F-0FF5-4D4B-B01B-888E166D8632}|Entities\\Entities.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\entities\\datatransferobject\\userforauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3432572F-0FF5-4D4B-B01B-888E166D8632}|Entities\\Entities.csproj|solutionrelative:entities\\datatransferobject\\userforauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBD9A981-550C-4B4C-B16A-A903B965001D}|Services\\Services.csproj|solutionrelative:services\\contracts\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Migrations\\20240823133048_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebAp\u0131\\Migrations\\20240823133048_cls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\efcore\\config\\categoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\config\\categoryconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\efcore\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\irepositorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\contracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\repositories\\efcore\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{612BD231-4199-4D61-BFF5-780ECE879F54}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3432572F-0FF5-4D4B-B01B-888E166D8632}|Entities\\Entities.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\entities\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3432572F-0FF5-4D4B-B01B-888E166D8632}|Entities\\Entities.csproj|solutionrelative:entities\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|c:\\users\\mert berber\\documents\\github\\bookapi\\webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A9F9D8F-8AE2-4FD2-A92F-90F48F60163A}|WebAp\u0131\\WebAp\u0131.csproj|solutionrelative:webap\u0131\\extensions\\servicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +63,157 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthenticationManager.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\AuthenticationManager.cs",
-              "RelativeDocumentMoniker": "Services\\AuthenticationManager.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\AuthenticationManager.cs",
-              "RelativeToolTip": "Services\\AuthenticationManager.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwBUAAAAQAAAA",
+              "Title": "CategoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\CategoryManager.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryManager.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\CategoryManager.cs",
+              "RelativeToolTip": "Services\\CategoryManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:06:33.436Z",
+              "WhenOpened": "2024-08-23T13:40:01.155Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IAuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IAuthenticationService.cs",
-              "RelativeDocumentMoniker": "Services\\Contracts\\IAuthenticationService.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IAuthenticationService.cs",
-              "RelativeToolTip": "Services\\Contracts\\IAuthenticationService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAeAAAA",
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\ICategoryService.cs",
+              "RelativeToolTip": "Services\\Contracts\\ICategoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T13:04:12.123Z",
+              "WhenOpened": "2024-08-23T13:36:27.823Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserForAuthenticationDto.cs",
-              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\DataTransferObject\\UserForAuthenticationDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DataTransferObject\\UserForAuthenticationDto.cs",
-              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\DataTransferObject\\UserForAuthenticationDto.cs",
-              "RelativeToolTip": "Entities\\DataTransferObject\\UserForAuthenticationDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAqAAAA",
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\IBookService.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Services\\Contracts\\IBookService.cs",
+              "RelativeToolTip": "Services\\Contracts\\IBookService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T12:55:16.849Z",
+              "WhenOpened": "2024-08-23T13:35:39.117Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240823133048_cls.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Migrations\\20240823133048_cls.cs",
+              "RelativeDocumentMoniker": "WebAp\u0131\\Migrations\\20240823133048_cls.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Migrations\\20240823133048_cls.cs",
+              "RelativeToolTip": "WebAp\u0131\\Migrations\\20240823133048_cls.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:30:48.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryConfig.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\Config\\CategoryConfig.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\Config\\CategoryConfig.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\Config\\CategoryConfig.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\Config\\CategoryConfig.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwCEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:23:01.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\RepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryManager.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\RepositoryManager.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:09:50.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepositoryManager.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\IRepositoryManager.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IRepositoryManager.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\IRepositoryManager.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IRepositoryManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T13:09:12.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\CategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:49:42.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\Contracts\\ICategoryRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:39:11.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T12:29:51.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\Entities\\Models\\Category.cs",
+              "RelativeToolTip": "Entities\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T13:47:08.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "RelativeDocumentMoniker": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\mert berber\\Documents\\GitHub\\BookApi\\WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "RelativeToolTip": "WebAp\u0131\\Extensions\\ServicesExtensions.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAowMkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T12:41:40.58Z"
             }
           ]
         }

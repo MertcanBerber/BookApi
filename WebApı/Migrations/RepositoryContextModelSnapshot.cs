@@ -62,6 +62,40 @@ namespace WebApı.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Entities.Models.Category", b =>
+                {
+                    b.Property<int>("CategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CategoryId"), 1L, 1);
+
+                    b.Property<string>("CategoryName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CategoryId");
+
+                    b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            CategoryId = 1,
+                            CategoryName = "Computer Science"
+                        },
+                        new
+                        {
+                            CategoryId = 2,
+                            CategoryName = "Network"
+                        },
+                        new
+                        {
+                            CategoryId = 3,
+                            CategoryName = "Database Manegament Systems"
+                        });
+                });
+
             modelBuilder.Entity("Entities.Models.User", b =>
                 {
                     b.Property<string>("Id")
@@ -109,6 +143,12 @@ namespace WebApı.Migrations
 
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("RefreshTokenExpiryTime")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
@@ -162,22 +202,22 @@ namespace WebApı.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "9e319006-a210-4d89-ae41-8d318840a6b2",
-                            ConcurrencyStamp = "6490b1b9-3900-4010-8cfb-78a4841a16b0",
+                            Id = "b25f6a27-a803-4074-8844-c1064a1dd536",
+                            ConcurrencyStamp = "a0a58219-e0a5-460f-89ff-360fcc2c3390",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "d35a1a06-71e5-4a81-9da0-b9c7faa2ec26",
-                            ConcurrencyStamp = "4c24e466-683e-42e0-be3f-d361fa08524e",
+                            Id = "2a1b3c41-c6d3-4fa6-aab1-4e24c5a960fa",
+                            ConcurrencyStamp = "183bd0d9-6674-4e62-886c-4ab4b69ecd1d",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "2e2667aa-e441-4a48-96a8-051f36189e5a",
-                            ConcurrencyStamp = "748de039-acf7-4a79-840b-42f5a99910a7",
+                            Id = "29e44a05-58c8-4b78-9ab0-e0aa2f885d61",
+                            ConcurrencyStamp = "aee356e1-ca3d-444e-9789-f00f7a90aa42",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
