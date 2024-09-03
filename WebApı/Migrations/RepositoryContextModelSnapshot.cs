@@ -30,6 +30,9 @@ namespace WebApı.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -39,24 +42,29 @@ namespace WebApı.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("CategoryId");
+
                     b.ToTable("Books");
 
                     b.HasData(
                         new
                         {
                             Id = 1,
+                            CategoryId = 1,
                             Price = 75m,
                             Title = "Karagöz ve hacivat"
                         },
                         new
                         {
                             Id = 2,
+                            CategoryId = 2,
                             Price = 175m,
                             Title = "Mesnevi"
                         },
                         new
                         {
                             Id = 3,
+                            CategoryId = 1,
                             Price = 375m,
                             Title = "Devlet"
                         });
@@ -202,22 +210,22 @@ namespace WebApı.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "b25f6a27-a803-4074-8844-c1064a1dd536",
-                            ConcurrencyStamp = "a0a58219-e0a5-460f-89ff-360fcc2c3390",
+                            Id = "65dd739a-321d-4da0-89e2-f5f901ad7281",
+                            ConcurrencyStamp = "840ef8e9-f726-40c9-bd27-f7b978082888",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "2a1b3c41-c6d3-4fa6-aab1-4e24c5a960fa",
-                            ConcurrencyStamp = "183bd0d9-6674-4e62-886c-4ab4b69ecd1d",
+                            Id = "25e1d3be-729c-47ba-9d9f-1b9df9bd2430",
+                            ConcurrencyStamp = "52d1fb1d-cdb2-4633-bdd0-48c71d5404f9",
                             Name = "Editor",
                             NormalizedName = "EDITOR"
                         },
                         new
                         {
-                            Id = "29e44a05-58c8-4b78-9ab0-e0aa2f885d61",
-                            ConcurrencyStamp = "aee356e1-ca3d-444e-9789-f00f7a90aa42",
+                            Id = "e46eadb6-2e32-454f-a577-47e9135be161",
+                            ConcurrencyStamp = "ccfb832d-a697-4dce-8eb4-e9e3c807252d",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         });
@@ -329,6 +337,17 @@ namespace WebApı.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Entities.Models.Book", b =>
+                {
+                    b.HasOne("Entities.Models.Category", "Category")
+                        .WithMany("Books")
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Category");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -378,6 +397,11 @@ namespace WebApı.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Entities.Models.Category", b =>
+                {
+                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }

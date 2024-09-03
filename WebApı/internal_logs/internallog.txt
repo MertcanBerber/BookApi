@@ -266,3 +266,89 @@
 2024-08-23 16:32:36.5328 Info Configuration initialized.
 2024-08-23 16:32:37.3488 Info AppDomain Shutting down. LogFactory closing...
 2024-08-23 16:32:37.3488 Info LogFactory has been closed.
+2024-08-28 15:41:11.0685 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:41:11.0786 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:41:11.0786 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:41:11.0938 Info Configuration initialized.
+2024-08-28 15:41:11.9263 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:41:11.9329 Info LogFactory has been closed.
+2024-08-28 15:41:23.6574 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:41:23.6673 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:41:23.6673 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:41:23.6673 Info Configuration initialized.
+2024-08-28 15:41:24.5769 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:41:24.5769 Info LogFactory has been closed.
+2024-08-28 15:48:14.9180 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:48:14.9288 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:48:14.9288 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:48:14.9459 Info Configuration initialized.
+2024-08-28 15:48:15.8148 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:48:15.8226 Info LogFactory has been closed.
+2024-08-28 15:51:12.9460 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:51:12.9566 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:51:12.9566 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:51:12.9723 Info Configuration initialized.
+2024-08-28 15:51:13.5676 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:51:13.5749 Info LogFactory has been closed.
+2024-08-28 15:52:33.1664 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:52:33.1778 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:52:33.1871 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:52:33.1871 Info Configuration initialized.
+2024-08-28 15:52:33.8054 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:52:33.8128 Info LogFactory has been closed.
+2024-08-28 15:53:11.4505 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:53:11.4611 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:53:11.4698 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:53:11.4698 Info Configuration initialized.
+2024-08-28 15:53:12.0387 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:53:12.0387 Info LogFactory has been closed.
+2024-08-28 15:54:03.7317 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:54:03.7428 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:54:03.7521 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:54:03.7521 Info Configuration initialized.
+2024-08-28 15:54:04.6241 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:54:04.6313 Info LogFactory has been closed.
+2024-08-28 15:54:22.4393 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:54:22.4500 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:54:22.4590 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:54:22.4590 Info Configuration initialized.
+2024-08-28 15:54:23.3403 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:54:23.3479 Info LogFactory has been closed.
+2024-08-28 15:59:38.6667 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:59:38.6667 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:59:38.6862 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:59:38.6862 Info Configuration initialized.
+2024-08-28 15:59:39.5494 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 15:59:39.5571 Info LogFactory has been closed.
+2024-08-28 15:59:45.9510 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 15:59:45.9745 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 15:59:45.9869 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 15:59:45.9982 Info Configuration initialized.
+2024-08-28 16:04:20.3186 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 16:04:20.3306 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 16:04:20.3306 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 16:04:20.3473 Info Configuration initialized.
+2024-08-28 16:04:21.1902 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 16:04:21.1902 Info LogFactory has been closed.
+2024-08-28 16:07:38.9663 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 16:07:38.9768 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 16:07:38.9768 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 16:07:38.9940 Info Configuration initialized.
+2024-08-28 16:07:39.8438 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 16:07:39.8507 Info LogFactory has been closed.
+2024-08-28 16:08:12.4616 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 16:08:12.4616 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 16:08:12.4814 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 16:08:12.4814 Info Configuration initialized.
+2024-08-28 16:08:13.3828 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 16:08:13.3828 Info LogFactory has been closed.
+2024-08-28 16:09:59.1778 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-28 16:09:59.1895 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-28 16:09:59.1982 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-28 16:09:59.1982 Info Configuration initialized.
+2024-08-28 16:10:00.0783 Info AppDomain Shutting down. LogFactory closing...
+2024-08-28 16:10:00.0783 Info LogFactory has been closed.
+2024-08-31 23:53:10.2479 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-08-31 23:53:10.2740 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.4.2092. Product version: 5.2.4+5ed75b125a691ce9f01e64641f1a79f438385847. GlobalAssemblyCache: False
+2024-08-31 23:53:10.2876 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\mert berber\Documents\GitHub\BookApi\WebApı\nlog.config
+2024-08-31 23:53:10.2994 Info Configuration initialized.
